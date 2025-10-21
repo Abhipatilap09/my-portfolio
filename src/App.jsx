@@ -96,7 +96,7 @@ export default function App() {
           <div className="flex justify-center md:justify-end">
             {/* IMPORTANT: Use the imported variable here: {profileImage} */}
             <img 
-              src="/Abhiskek_Patil2" 
+              src="/Abhiskek_Patil2.jpg" 
               alt="Abhishek Patil Professional Headshot"
               className="w-72 h-72 object-cover rounded-full shadow-xl border-4 border-teal-400 transform hover:scale-105 transition duration-300" 
               // You can update the fallback to point to the imported image as well,
