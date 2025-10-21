@@ -2,9 +2,6 @@ import React from 'react';
 
 // 1. IMPORT THE IMAGE:
 // Assuming App.jsx and Abhiskek_Patil2.jpg are in the same folder (src), 
-// use './' for the relative path.
-import profileImage from './Abhiskek_Patil2.jpg';
-
 // App.jsx - Single-file React + Tailwind portfolio component
 // This component is enhanced with more detailed projects, better skill grouping, 
 // and a visual placeholder in the hero section.
@@ -99,7 +96,7 @@ export default function App() {
           <div className="flex justify-center md:justify-end">
             {/* IMPORTANT: Use the imported variable here: {profileImage} */}
             <img 
-              src={profileImage} // 2. USE THE IMPORTED VARIABLE HERE
+              src="/Abhiskek_Patil2.jpg" 
               alt="Abhishek Patil Professional Headshot"
               className="w-72 h-72 object-cover rounded-full shadow-xl border-4 border-teal-400 transform hover:scale-105 transition duration-300" 
               // You can update the fallback to point to the imported image as well,
