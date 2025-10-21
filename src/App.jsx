@@ -94,7 +94,6 @@ export default function App() {
 
           {/* Right Column: Visual Element */}
           <div className="flex justify-center md:justify-end">
-            {/* IMPORTANT: Use the imported variable here: {profileImage} */}
             <img 
               src="/Abhiskek_Patil2.jpg" 
               alt="Abhishek Patil Professional Headshot"
@@ -142,9 +141,9 @@ export default function App() {
               <div>
                 <h5 className="text-lg font-bold mb-3 text-teal-700 border-b pb-1">Frontend & Languages</h5>
                 <p className="text-sm text-gray-700 leading-relaxed">
-                  **React**, **TypeScript**, JavaScript (ES6+), HTML5, CSS3, **Tailwind**.
+                  React, TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind.
                   <br />
-                  C++, **Python**, Java, SQL.
+                  C++, Python, Java, SQL.
                 </p>
               </div>
 
@@ -152,7 +151,7 @@ export default function App() {
               <div>
                 <h5 className="text-lg font-bold mb-3 text-teal-700 border-b pb-1">Backend & Databases</h5>
                 <p className="text-sm text-gray-700 leading-relaxed">
-                  **Node.js**, **Express**, REST APIs, **Microservices**, Multithreading, SQL, MongoDB.
+                  Node.js, Express, REST APIs, Microservices, Multithreading, SQL, MongoDB.
                 </p>
               </div>
 
@@ -168,7 +167,7 @@ export default function App() {
               <div className="lg:col-span-2">
                 <h5 className="text-lg font-bold mb-3 text-teal-700 border-b pb-1">Data Science & AI/ML</h5>
                 <p className="text-sm text-gray-700 leading-relaxed">
-                  **TensorFlow**, **PyTorch**, Scikit-learn, Pandas, NumPy, Data Visualization, Power BI, Statistical Modeling.
+                  TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Data Visualization, Power BI, Statistical Modeling.
                 </p>
               </div>
 
@@ -181,12 +180,40 @@ export default function App() {
           <h3 className="text-3xl font-bold mb-8 text-teal-600">Achievements & Certificates</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
-                <p className="font-semibold text-gray-800">Azure Developer Associate Certification (AZ-204)</p>
-                <p className="text-sm text-gray-500 mt-1">Microsoft, 2023</p>
+                <p className="font-semibold text-gray-800">Generative AI: The Evolution of Thoughtful Online Search</p>
+                <p className="text-sm text-gray-500 mt-1">LinkedIN learning | Skills - Generative AI,Artificial Intelligence for Business,Search Engine Technology,Artificial Intelligence (AI)</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
+                <p className="font-semibold text-gray-800">Learning Microsoft 365 Copilot for Work | Issued Jun 2025</p>
+                <p className="text-sm text-gray-500 mt-1">LinkedIN learning | Skills: Microsoft Copilot · Office 365</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
+                <p className="font-semibold text-gray-800">Streamlining Your Work with Microsoft Copilot | Issued Jun 2025</p>
+                <p className="text-sm text-gray-500 mt-1">LinkedIN learning | Skills: AI Productivity · Microsoft Copilot</p>
+            </div>
+             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
+                <p className="font-semibold text-gray-800">Introduction to Generative AI | Issued Dec 2025</p>
+                <p className="text-sm text-gray-500 mt-1">Google | Credential ID 13102783</p>
+            </div>
+             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
+                <p className="font-semibold text-gray-800">Introduction to Responsible AI | Issued Dec 2024</p>
+                <p className="text-sm text-gray-500 mt-1">Google | Credential ID 13104039</p>
+            </div>
+             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
+                <p className="font-semibold text-gray-800">Introduction to Large Language Models | Issued Dec 2024</p>
+                <p className="text-sm text-gray-500 mt-1">Google | Credential ID 13104390</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
                 <p className="font-semibold text-gray-800">Outstanding Contributor Award</p>
                 <p className="text-sm text-gray-500 mt-1">Previous Employer, 2022</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
+                <p className="font-semibold text-gray-800">Learning Python| Issued Aug 2021</p>
+                <p className="text-sm text-gray-500 mt-1">LinkedIN learning | Skills: Python</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
+                <p className="font-semibold text-gray-800">Java Full stack developer Course Certification| Aug 2021 to May 2022</p>
+                <p className="text-sm text-gray-500 mt-1">Seed Infotech | Skills: C, SQL, Responsive Web Designing, Core Java, WCD, Spring and Hibernate, Angular JS </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
                 <p className="font-semibold text-gray-800">Specialization in Deep Learning</p>
