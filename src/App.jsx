@@ -1,5 +1,10 @@
 import React from 'react';
 
+// 1. IMPORT THE IMAGE:
+// Assuming App.jsx and Abhiskek_Patil2.jpg are in the same folder (src), 
+// use './' for the relative path.
+import profileImage from './Abhiskek_Patil2.jpg';
+
 // App.jsx - Single-file React + Tailwind portfolio component
 // This component is enhanced with more detailed projects, better skill grouping, 
 // and a visual placeholder in the hero section.
@@ -60,7 +65,7 @@ export default function App() {
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
           <div>
             <h1 className="text-2xl font-bold text-teal-600">Abhishek Patil</h1>
-            <p className="text-sm text-gray-600">Software Engineer | AI & ML Enthusiast</p>
+            <p className="text-sm text-gray-600">Software Engineer | UTSA Masters in Computer Science | AI & ML Enthusiast</p>
           </div>
           <nav className="space-x-4 text-sm hidden md:flex items-center">
             <a href="#about" className="hover:text-teal-600 transition duration-150">About</a>
@@ -92,12 +97,15 @@ export default function App() {
 
           {/* Right Column: Visual Element */}
           <div className="flex justify-center md:justify-end">
-            {/* IMPORTANT: Please replace '/profile-photo.jpg' with your actual image path */}
+            {/* IMPORTANT: Use the imported variable here: {profileImage} */}
             <img 
-              src="https://placehold.co/300x300/e0f2f7/066d77?text=Profile+Pic" // Placeholder
+              src={profileImage} // 2. USE THE IMPORTED VARIABLE HERE
               alt="Abhishek Patil Professional Headshot"
               className="w-72 h-72 object-cover rounded-full shadow-xl border-4 border-teal-400 transform hover:scale-105 transition duration-300" 
-              onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/300x300/e0f2f7/066d77?text=Profile+Pic" }} // Fallback
+              // You can update the fallback to point to the imported image as well,
+              // but it's often better to use a placeholder link or remove the fallback 
+              // entirely if you are sure the imported image path is correct.
+              onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/300x300/e0f2f7/066d77?text=Error" }} 
             />
           </div>
         </section>
