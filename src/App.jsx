@@ -225,7 +225,7 @@ export default function App() {
           <h3 className="text-3xl font-bold mb-8 text-teal-600">Blog / Technical Insights</h3>
           <div className="bg-white rounded-xl p-8 shadow-lg text-center border border-gray-100">
             <p className="text-gray-700 text-lg">
-                I'm currently building out a space to share technical deep dives on **Microservice Deployment** and **PyTorch Optimization**. Check back soon!
+                 Check back soon!
             </p>
             <a href="#" className="mt-4 inline-block text-sm text-teal-600 hover:underline">Link to Medium / Hashnode</a>
           </div>
