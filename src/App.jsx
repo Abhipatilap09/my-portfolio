@@ -221,11 +221,12 @@ export default function App() {
         </section>
 
         {/* Blog placeholder */}
-        <section id="blog" className="pt-8">
+      <section id="blog" className="pt-8">
           <h3 className="text-3xl font-bold mb-8 text-teal-600">Blog / Technical Insights</h3>
           <div className="bg-white rounded-xl p-8 shadow-lg border border-gray-100">
+           
 
-          {/* PROPOSAL TITLE & METADATA */}
+        {/* PROPOSAL TITLE & METADATA */}
         <div className="text-center mb-10">
             <h1 className="text-4xl font-extrabold text-gray-900 mb-2">
                 Project Proposal: AI-Based Software Defect Prediction
@@ -446,9 +447,9 @@ export default function App() {
 
 
         {/* FINAL LINK (Preserving the original footer element) */}
-        <a href="#" className="mt-8 inline-block text-sm text-teal-600 hover:underline">Link to Medium / Hashnode</a>
+        <a href="#" className="mt-8 inline-block text-sm text-teal-600 hover:underline">Link to Medium / Hashnode</a>   
         </div>
-        </section>
+      </section>
 
         {/* Contact */}
         <section id="contact" className="pt-8">
