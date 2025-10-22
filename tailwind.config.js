@@ -17,7 +17,7 @@ export default {
       },
       // Optionally defining your primary accent color for easy reuse
       colors: {
-        accent: '#0ea5a4', // A clean teal color for buttons and highlights
+        accent: '#0ffcfcff', // A clean teal color for buttons and highlights
       }
     },
   },
