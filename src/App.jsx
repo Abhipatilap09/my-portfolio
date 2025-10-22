@@ -97,11 +97,9 @@ export default function App() {
             <img 
               src="/Abhishek_Patil2.jpg"
               alt="Abhishek Patil Professional Headshot"
-              className="w-72 h-72 object-cover rounded-full shadow-xl border-4 border-teal-400 transform hover:scale-105 transition duration-300" 
-              // You can update the fallback to point to the imported image as well,
-              // but it's often better to use a placeholder link or remove the fallback 
-              // entirely if you are sure the imported image path is correct.
-              onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/300x300/e0f2f7/066d77?text=Error" }} 
+              className="w-72 h-72 rounded-full shadow-xl border-4 border-teal-400 transform hover:scale-105 transition duration-300
+             object-cover object-top" // <-- ADD object-top (or object-[percentage])
+             onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/300x300/e0f2f7/066d77?text=Error" }} 
             />
           </div>
         </section>
