@@ -34,7 +34,7 @@ export default function App() {
       title: 'Weather App (Full-Stack)',
       desc: 'Full-stack weather application with a modern React frontend and a deployed Node.js/Express backend. It features real-time weather data retrieval and efficient caching mechanisms for high availability.',
       link: 'https://weather-app-abhishekpatil09.onrender.com/',
-      repo: 'https://github.com/Abhipatilap09/weather-app-repo',
+      repo: 'https://github.com/Abhipatilap09/weather-app-abhishekpatil09',
       tags: ['React', 'Node.js', 'API Integration', 'Full-Stack'],
     },
   ];
