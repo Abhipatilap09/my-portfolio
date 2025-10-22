@@ -443,6 +443,14 @@ export default function App() {
                 </tbody>
             </table>
             <p className="text-sm text-gray-500 mt-2">Source: Tosun et al. (case study).</p>
+            <p><strong>7️ Stakeholder Benefits:</strong><br/>
+            Developers gain early insights into high-risk code, QA teams optimize testing effort, and organizations save maintenance costs. This model supports continuous quality improvement pipelines in CI/CD environments.</p>
+
+            <p><strong>8️ Results & Future Work:</strong><br/>
+            Initial experiments show Random Forest outperforming other algorithms. Future work includes integrating deep learning (LSTM) for temporal defect trends and deploying the model as a RESTful API service.</p>
+
+            <p><strong>9️ Conclusion:</strong><br/>
+            The AI-Based Software Defect Prediction project contributes toward building reliable, cost-efficient, and intelligent software development lifecycles. It demonstrates how data-driven methods can drastically improve software engineering practices.</p>
         </div>
 
 
