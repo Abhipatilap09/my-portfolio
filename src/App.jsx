@@ -12,7 +12,7 @@ export default function App() {
     {
       title: 'My Portfolio',
       desc: 'This repository contains the source code for my professional portfolio website, which showcases my projects, skills, and experience.The site is built with modern web technologies for a fast, responsive, and engaging user experience.',
-      link: 'my-portfolio-34hw.onrender.com', 
+      link: 'https://my-portfolio-34hw.onrender.com/', 
       repo: 'https://github.com/Abhipatilap09/satellite-classifier-repo',
       tags: ['React.js', 'CSS & PostCSS', 'Tailwind CSS', 'Vite', 'Node.js & npm', 'ESLint'],
     },
