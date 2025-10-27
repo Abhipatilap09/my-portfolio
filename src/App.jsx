@@ -10,6 +10,13 @@ export default function App() {
   // --- Data Definition ---
   const projects = [
     {
+      title: 'My Portfolio',
+      desc: 'This repository contains the source code for my professional portfolio website, which showcases my projects, skills, and experience.The site is built with modern web technologies for a fast, responsive, and engaging user experience.',
+      link: 'my-portfolio-34hw.onrender.com', 
+      repo: 'https://github.com/Abhipatilap09/satellite-classifier-repo',
+      tags: ['React.js', 'CSS & PostCSS', 'Tailwind CSS', 'Vite', 'Node.js & npm', 'ESLint'],
+    },
+    {
       title: 'Deep Learning Satellite Classifier',
       desc: 'Developed a Convolutional Neural Network (CNN) using PyTorch for classifying high-resolution satellite imagery, achieving 95% accuracy. The model was optimized for inference speed and integrated into a cloud environment for batch processing.',
       link: '#', 
@@ -17,18 +24,18 @@ export default function App() {
       tags: ['PyTorch', 'Python', 'CNN', 'Cloud Deployment'],
     },
     {
-      title: 'Real-Time Microservice API Gateway',
-      desc: 'Architected and built a highly concurrent API Gateway using Node.js and Express to manage traffic for multiple backend microservices. Implemented rate limiting, JWT authentication, and Dockerized deployment to Kubernetes.',
-      link: '#', 
-      repo: 'https://github.com/Abhipatilap09/microservice-gateway-repo',
-      tags: ['Node.js', 'Express', 'Microservices', 'Kubernetes'],
+      title: 'Breast Cancer Classification (kNN Model)',
+      desc: 'This repository contains the Jupyter Notebook (Project3_BreastCancer(new).ipynb) for the Breast Cancer Classification project. It implements a k-Nearest Neighbors (kNN) classifier to predict the diagnosis (Malignant or Benign) and uses GridSearchCV to optimize the models performance.',
+      link: 'https://github.com/Abhipatilap09/kNN-model', 
+      repo: 'https://github.com/Abhipatilap09/kNN-model',
+      tags: ['Python', 'Libaries: pandas, numpy, scikit-learn (sklearn), matplotlib, seaborn'],
     },
     {
-      title: 'Multi-Criteria Data Analysis Dashboard',
-      desc: 'Created an interactive data visualization dashboard using React and Power BI to allow users to filter complex datasets (over 1M rows) by multiple criteria in real-time, significantly reducing report generation time for stakeholders.',
-      link: '#', 
-      repo: 'https://github.com/Abhipatilap09/data-dashboard-repo',
-      tags: ['React', 'Power BI', 'DataViz', 'SQL'],
+      title: 'K-means-cluster-Analysis(Iris Dataset Cluster Analysis)',
+      desc: 'This project focuses on applying unsupervised machine learning techniques to the classic Iris Flower Dataset. The core objective is to perform a comparative cluster analysis using two fundamental algorithms: K-Means Clustering and Hierarchical Clustering.The analysis is conducted entirely within a Jupyter Notebook (Project2_Cluster_Analysis(code).ipynb), demonstrating the full workflow from data preparation and standardization to model training, evaluation (Elbow Method), and visualization (Scatter Plots and Dendrograms).',
+      link: 'https://github.com/Abhipatilap09/K-means-cluster-Analysis', 
+      repo: 'https://github.com/Abhipatilap09/K-means-cluster-Analysis',
+      tags: ['Python', 'Libaries: pandas, scikit-learn (sklearn), matplotlib, seaborn, scipy '],
     },
     {
       title: 'Weather App (Full-Stack)',
