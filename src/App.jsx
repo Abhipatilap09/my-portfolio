@@ -197,7 +197,7 @@ export default function App() {
                 <p className="text-sm text-gray-500 mt-1">LinkedIN learning | Skills: AI Productivity · Microsoft Copilot</p>
             </div>
              <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
-                <p className="font-semibold text-gray-800">Introduction to Generative AI | Issued Dec 2025</p>
+                <p className="font-semibold text-gray-800">Introduction to Generative AI | Issued Dec 2024</p>
                 <p className="text-sm text-gray-500 mt-1">Google | Credential ID 13102783</p>
             </div>
              <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
