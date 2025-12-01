@@ -10,6 +10,14 @@ export default function App() {
   // --- Data Definition ---
   const projects = [
     {
+      title: 'AI-Based Software Defect Prediction:',
+      desc: 'This project develops a machine learning–based software defect prediction system using three real-world datasets (ANT-1.7, Camel-1.0, and GitHub Pull Requests). It applies multiple classifiers—including Random Forest, XGBoost, Logistic Regression, and Naïve Bayes—to identify defective software modules based on code metrics and process features. The work includes comprehensive data preprocessing, visualization, model training, hyperparameter tuning, and evaluation using ROC curves, confusion matrices, feature importance analysis, and cost-benefit assessment. The results show that ensemble models perform best on balanced data, while extreme class imbalance requires specialized handling. The study provides actionable insights for deploying defect prediction models in real development environments.',
+      link: 'https://github.com/Abhipatilap09/AI-Based-Software-Defect-Detection', 
+      repo: 'https://github.com/Abhipatilap09/AI-Based-Software-Defect-Detection',
+      tags: ['Python', 'pandas', 'numpy', 'matplotlib', 'seaborn','scikit-learn', 'imbalanced-learn (SMOTE)', 'XGBoost'],
+
+    },
+    {
       title: 'My Portfolio',
       desc: 'This repository contains the source code for my professional portfolio website, which showcases my projects, skills, and experience.The site is built with modern web technologies for a fast, responsive, and engaging user experience.',
       link: 'https://my-portfolio-34hw.onrender.com/', 
