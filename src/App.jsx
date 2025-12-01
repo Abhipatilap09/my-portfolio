@@ -192,6 +192,10 @@ export default function App() {
         <section id="achievements" className="pt-8">
           <h3 className="text-3xl font-bold mb-8 text-teal-600">Achievements & Certificates</h3>
           <div className="grid md:grid-cols-3 gap-6">
+             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
+                <p className="font-semibold text-gray-800">Congressional Reconigtion Bexar County Clerk</p>
+                <p className="text-sm text-gray-500 mt-1">For Public Services</p>
+            </div>
             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
                 <p className="font-semibold text-gray-800">Generative AI: The Evolution of Thoughtful Online Search</p>
                 <p className="text-sm text-gray-500 mt-1">LinkedIN learning | Skills - Generative AI,Artificial Intelligence for Business,Search Engine Technology,Artificial Intelligence (AI)</p>
